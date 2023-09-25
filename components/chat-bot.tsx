@@ -27,7 +27,7 @@ export default function ChatBot({ name, type }: ChatBotProps) {
         content: `Pretend to be a ${type}`,
       },
     ],
-  });
+  }); // test
 
   return (
     <div>
